@@ -29,7 +29,7 @@ npm install
    - **Redux Toolkit**: For managing global state, Redux Toolkit was employed, simplifying the process of creating slices and handling async operations. This structure allowed for clear separation of concerns and made the app’s state management predictable and maintainable.
 
 #### 4. **GraphQL Integration**:
-   - **Apollo Client**: Apollo Client was integrated for handling GraphQL queries and mutations, enabling efficient data fetching and caching. By abstracting GraphQL queries into `.graphql` files and tying them into Redux actions, we maintained a clean and organized structure.
+   - **Apollo Client**: Apollo Client was integrated for handling GraphQL queries and mutations, enabling efficient data fetching and caching. By abstracting GraphQL queries into `.ts` files and tying them into Redux actions, we maintained a clean and organized structure.
 
 #### 5. **Unit Testing**:
    - **Testing with @testing-library/react-native**: We implemented unit tests for all key components using `@testing-library/react-native`. These tests ensure that components render correctly, handle user interactions as expected, and manage state appropriately.
